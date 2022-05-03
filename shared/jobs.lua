@@ -19,24 +19,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Recruit',
-                payment = 50
+                payment = 1000 
             },
 			['1'] = {
                 name = 'Officer',
-                payment = 75
+                payment = 1500
             },
 			['2'] = {
                 name = 'Sergeant',
-                payment = 100
+                payment = 2000
             },
 			['3'] = {
                 name = 'Lieutenant',
-                payment = 125
+                payment = 2500
             },
 			['4'] = {
                 name = 'Chief',
 				isboss = true,
-                payment = 150
+                payment = 5000
             },
         },
 	},
@@ -47,24 +47,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Recruit',
-                payment = 50
+                payment = 1250
             },
 			['1'] = {
                 name = 'Paramedic',
-                payment = 75
+                payment = 1750
             },
 			['2'] = {
                 name = 'Doctor',
-                payment = 100
+                payment = 2500
             },
 			['3'] = {
                 name = 'Surgeon',
-                payment = 125
+                payment = 4000
             },
 			['4'] = {
                 name = 'Chief',
 				isboss = true,
-                payment = 150
+                payment = 5000
             },
         },
 	},
@@ -279,4 +279,45 @@ QBShared.Jobs = {
             },
         },
 	},
+    ['lumberjack'] = {
+		label = 'LumberJack',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Logger',
+                payment = 50
+            },
+        },
+	},
+    ['beanmachine'] = {
+		label = 'Bean Machine',
+		defaultDuty = true,
+		grades = {
+            ['0'] = { name = 'Recruit', payment = 50 },
+			['1'] = { name = 'Novice', payment = 75 },
+			['2'] = { name = 'Experienced', payment = 100 },
+			['3'] = { name = 'Advanced', payment = 125 },
+			['4'] = { name = 'Manager', isboss = true, payment = 150 },
+        },
+	},
+    ['vu'] = {
+        label = 'Vanilla Unicorn',
+        defaultDuty = true,
+        grades = {
+            ['0'] = {
+                name = 'Trainee',
+                payment = 50
+            },
+            ['1'] = {
+                name = 'Employee',
+                payment = 75
+            },
+            ['2'] = {
+                name = 'Management',
+                isboss = true,
+                payment = 2000
+            },
+        },
+    },
 }
